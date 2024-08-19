@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 import { Link as LinkR } from "react-router-dom";
-import { DiCssdeck } from "react-icons/di";
+import { DiAtom } from "react-icons/di";
+import { FaBars } from "react-icons/fa";
+import { useTheme } from "styled-components";
 
 // Styles for the Navbar's Nav component
 const Nav = styled.nav`
@@ -134,7 +136,48 @@ const Span = styled.div`
   font-size: 18px;
 `;
 
+// Styles for the Navbar's MobileMenu component
+const MobileMenu = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+  position: absolute;
+  top: 80;
+  right: 0;
+  width: 100%;
+  padding: 12px 40px 24px 40px;
+  background: ${({ theme }) => theme.card_light + 99};
+  transition: all 0.6s ease-in-out;
+  transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  opacity: ${({ open }) => (open ? "1" : "0")};
+  z-index: ${({ open }) => (open ? "1" : "-1")};
+`;
+
+// Styles for the Navbar's MobileMenuLinks component
+const MobileMenuLinks = styled(LinkR)`
+  color: ${({ theme }) => theme.text_primary};
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  :hover {
+    color: ${({ theme }) => theme.primary};
+  }
+
+  &.active {
+    border-bottom: 2px solid ${({ theme }) => theme.primary};
+  }
+`;
+
 const Navbar = () => {
+  //useState for showing Mobile icon
+  const [open, setOpen] = useState(false);
+
+  const theme = useTheme();
+
   return (
     <Nav>
       <NavContainer>
@@ -148,10 +191,12 @@ const Navbar = () => {
               cursor: "pointer",
             }}
           >
-            <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+            <DiAtom size="3rem" /> <Span>Portfolio</Span>
           </a>
         </NavLogo>
-        <MobileIcon></MobileIcon>
+        <MobileIcon>
+          <FaBars onClick={() => setOpen(!open)}></FaBars>
+        </MobileIcon>
         <NavItems>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skils">Skills</NavLink>
@@ -163,6 +208,62 @@ const Navbar = () => {
           <GithubButton>Github Profile</GithubButton>
         </ButtonContainer>
       </NavContainer>
+      {open && (
+        <MobileMenu open={open}>
+          <MobileMenuLinks
+            href="#about"
+            onClick={() => {
+              setOpen(!open);
+            }}
+          >
+            About
+          </MobileMenuLinks>
+          <MobileMenuLinks
+            href="#skills"
+            onClick={() => {
+              setOpen(!open);
+            }}
+          >
+            Skills
+          </MobileMenuLinks>
+          <MobileMenuLinks
+            href="#experience"
+            onClick={() => {
+              setOpen(!open);
+            }}
+          >
+            Experience
+          </MobileMenuLinks>
+          <MobileMenuLinks
+            href="#projects"
+            onClick={() => {
+              setOpen(!open);
+            }}
+          >
+            Projects
+          </MobileMenuLinks>
+          <MobileMenuLinks
+            href="#education"
+            onClick={() => {
+              setOpen(!open);
+            }}
+          >
+            Education
+          </MobileMenuLinks>
+          <GithubButton
+            style={{
+              padding: "10px 16px",
+              background: `${theme.primary}`,
+              color: "white",
+              width: "max-content",
+            }}
+            href="/"
+            target="_blank"
+          >
+            Github Profile
+          </GithubButton>
+        </MobileMenu>
+      )}
     </Nav>
   );
 };
