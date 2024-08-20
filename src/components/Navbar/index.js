@@ -4,6 +4,7 @@ import { Link as LinkR } from "react-router-dom";
 import { DiAtom } from "react-icons/di";
 import { FaBars } from "react-icons/fa";
 import { useTheme } from "styled-components";
+import { Bio } from "../../data/constants";
 
 // Styles for the Navbar's Nav component
 const Nav = styled.nav`
@@ -40,6 +41,7 @@ const NavLogo = styled(LinkR)`
   cursor: pointer;
   text-decoration: none;
   align-items: center;
+
   @media screen and (max-width: 640px) {
     padding: 0 0px;
   }
@@ -82,6 +84,7 @@ const NavLink = styled.a`
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
+
   :hover {
     color: ${({ theme }) => theme.primary};
   }
@@ -99,13 +102,14 @@ const ButtonContainer = styled.div`
   justify-content: end;
   align-items: center;
   padding: 0 6px;
+
   @media screen and (max-width: 640px) {
     display: none;
   }
 `;
 
 // Styles for the Navbar's GithubButton component
-const GithubButton = styled.button`
+const GithubButton = styled.a`
   background-color: transparent;
   color: ${({ theme }) => theme.primary};
   border: 1.8px solid ${({ theme }) => theme.primary};
@@ -120,10 +124,12 @@ const GithubButton = styled.button`
   text-decoration: none;
   font-size: 1rem;
   transition: all 0.6s ease-in-out;
+
   :hover {
     background: ${({ theme }) => theme.primary};
     color: ${({ theme }) => theme.white};
   }
+
   @media screen and (max-width: 640px) {
     font-size: 0.8rem;
   }
@@ -157,12 +163,13 @@ const MobileMenu = styled.div`
 `;
 
 // Styles for the Navbar's MobileMenuLinks component
-const MobileMenuLinks = styled(LinkR)`
+const MobileMenuLinks = styled.a`
   color: ${({ theme }) => theme.text_primary};
   font-weight: 500;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
+
   :hover {
     color: ${({ theme }) => theme.primary};
   }
@@ -171,6 +178,11 @@ const MobileMenuLinks = styled(LinkR)`
     border-bottom: 2px solid ${({ theme }) => theme.primary};
   }
 `;
+
+// Function to scrool to the top of the page
+let scrollToTop = () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+};
 
 const Navbar = () => {
   //useState for showing Mobile icon
@@ -181,7 +193,7 @@ const Navbar = () => {
   return (
     <Nav>
       <NavContainer>
-        <NavLogo to="/">
+        <NavLogo onClick={scrollToTop}>
           <a
             style={{
               display: "flex",
@@ -200,12 +212,14 @@ const Navbar = () => {
         <NavItems>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
-          <NavLink href="#experience">Experience</NavLink>
+          {/*<NavLink href="#experience">Experience</NavLink>*/}
           <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#education">Education</NavLink>
         </NavItems>
         <ButtonContainer>
-          <GithubButton>Github Profile</GithubButton>
+          <GithubButton href={Bio.github} target="_blank">
+            Github Profile
+          </GithubButton>
         </ButtonContainer>
       </NavContainer>
       {open && (
@@ -226,14 +240,14 @@ const Navbar = () => {
           >
             Skills
           </MobileMenuLinks>
-          <MobileMenuLinks
+          {/*<MobileMenuLinks
             href="#experience"
             onClick={() => {
               setOpen(!open);
             }}
           >
             Experience
-          </MobileMenuLinks>
+          </MobileMenuLinks>*/}
           <MobileMenuLinks
             href="#projects"
             onClick={() => {
@@ -257,7 +271,7 @@ const Navbar = () => {
               color: "white",
               width: "max-content",
             }}
-            href="/"
+            href={Bio.github}
             target="_blank"
           >
             Github Profile

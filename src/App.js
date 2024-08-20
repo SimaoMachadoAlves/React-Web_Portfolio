@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/HeroSection";
 import Skills from "./components/Skills";
 import Education from "./components/Education";
+import Experience from "./components/Experience";
 import { BrowserRouter as Router } from "react-router-dom";
 
 // container Body
@@ -40,6 +41,7 @@ function App() {
           <Hero></Hero>
           <Wrapper>
             <Skills></Skills>
+            {/* <Experience/> */}
             <Education></Education>
           </Wrapper>
         </Body>
