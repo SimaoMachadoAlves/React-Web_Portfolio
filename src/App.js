@@ -7,6 +7,7 @@ import Skills from "./components/Skills";
 import Education from "./components/Education";
 import Experience from "./components/Experience";
 import { BrowserRouter as Router } from "react-router-dom";
+import Projects from "./components/Projects";
 
 // container Body
 const Body = styled.div`
@@ -41,9 +42,10 @@ function App() {
           <Hero></Hero>
           <Wrapper>
             <Skills></Skills>
-            {/* <Experience/> */}
-            <Education></Education>
+            {/* <Experience></Experience> */}
           </Wrapper>
+          <Projects></Projects>
+          <Education></Education>
         </Body>
       </Router>
     </ThemeProvider>

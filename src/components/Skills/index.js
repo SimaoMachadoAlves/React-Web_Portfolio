@@ -10,6 +10,7 @@ const Container = styled.div`
   position: relative;
   z-index: 1;
   align-items: center;
+  padding-bottom: 60px;
 `;
 
 // Styles for the Skills Wrapper component
@@ -29,7 +30,7 @@ const Title = styled.div`
   font-size: 42px;
   text-align: center;
   font-weight: 600;
-  margin-top: 20px;
+
   color: ${({ theme }) => theme.text_primary};
   @media screen and (max-width: 768px) {
     margin-top: 12px;
@@ -46,6 +47,7 @@ const Description = styled.div`
   @media (max-width: 768px) {
     font-size: 16px;
   }
+  margin-top: 20px;
 `;
 
 // Styles for the Skills SkillsContainer component
@@ -131,8 +133,8 @@ const Skills = () => {
   return (
     <Container id="skills">
       <Wrapper>
+        <Description>Explore my main</Description>
         <Title>Skills</Title>
-        <Description>Explore my main skills</Description>
         <SkillsContainer>
           {skills.map((item) => (
             <Skill>

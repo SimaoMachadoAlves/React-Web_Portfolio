@@ -1,3 +1,6 @@
+import BackOffice from "../images/BackOffice.png";
+import App from "../images/App.png";
+
 /* ---------------------------------------- BIO  ---------------------------------------- */
 export const Bio = {
   name: "Simão Alves",
@@ -126,45 +129,6 @@ export const experiences = [
       doc: "",
         */
   },
-  {
-    id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    role: "DevOps & Fullstack Engineering Intern",
-    company: "Flipr Inovations Pvt. Ltd.",
-    date: "Aug 2023 - July 2023",
-    desc: "Working on Flipr Platforms, managing DevOps, and streamlining the process with automation.",
-    skills: [
-      "Docker",
-      "Terraform",
-      "AWS",
-      "EC2",
-      "Portainer",
-      "Nginx",
-      "JavaScript",
-      "TypeScript",
-      "Node Js",
-      " Next Js",
-    ],
-    doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
-  },
-  {
-    id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
-    role: "Frontend Engineer Intern",
-    company: "Neurobit",
-    date: "June 2023 - Present",
-    desc: "Working on the frontend of the web application using ReactJS, Redux, and Material UI.",
-    skills: [
-      "ReactJS",
-      "Redux",
-      "NodeJs",
-      "Material UI",
-      "HTML",
-      "CSS",
-      "JavaScript",
-    ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
-  },
 ];
 
 /* ---------------------------------------- EDUCATION  ---------------------------------------- */
@@ -199,7 +163,7 @@ export const projects = [
       "Developed an app in JavaFX for the VSC Volleyball team, where they could do the management of their teams. The data was saved and fetch directly in a SQL server (Ubuntu) provided by the University.",
     image:
       "https://simaomachadoalves.github.io/Web-Portfolio/Assets/VolleyStats.png",
-    tags: ["Java, JavaFX, MySQL"],
+    tags: ["Java", "JavaFX", "MySQL"],
     category: "app",
     github: "https://github.com/SimaoMachadoAlves/JAVAFX-Project",
     webapp: "https://www.youtube.com/watch?v=lIsHudl_sJo",
@@ -266,9 +230,8 @@ export const projects = [
     title: "GoHelp - BackOffice",
     date: "Feb 2024 - Jun 2024",
     description:
-      "GoHelp is a fictional organization whose main goal is to regrow culture in Portugal by creating some events such as book exchange, musical concerts and theaters. GoHelp BO is where the data is managed. The admin has access to all information about the users, events, materials, colaborators, etc and even a dashboard and some KPI's. He is in control and he decides whether or not an event will occur.",
-    image:
-      "https://simaomachadoalves.github.io/GoHelp-BO/BACK-OFFICE/images/branco1.png",
+      "GoHelp BO is where the data is managed. The admin has access to all information about the users, events, materials, colaborators, etc and even a dashboard and some KPI's. He is in control and he decides whether or not an event will occur.",
+    image: BackOffice,
     tags: ["LocalStorage", "SessionStorage"],
     category: "web app",
     github: "https://github.com/SimaoMachadoAlves/GoHelp-BO",
@@ -296,9 +259,8 @@ export const projects = [
     title: "GoHelp - App",
     date: "Feb 2024 - Jun 2024",
     description:
-      "GoHelp is a fictional organization whose main goal is to regrow culture in Portugal by creating some events such as book exchange, musical concerts and theaters. GoHelp App is a management app (built in Vue.js) designed for the colaborators who are leading the current events. They can check presences and materials, sent some alerts to the office, register some actions, etc.",
-    image:
-      "https://simaomachadoalves.github.io/GoHelp-APP/img/logo.ee073c7c.png",
+      "GoHelp App is a management app (built in Vue.js) designed for the colaborators who are leading the current events. They can check presences and materials, sent some alerts to the office, register some actions, etc.",
+    image: App,
     tags: ["Vue", "LocalStorage", "SessionStorage"],
     category: "web app",
     github: "https://github.com/SimaoMachadoAlves/GoHelp-APP",
