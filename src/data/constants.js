@@ -274,11 +274,11 @@ export const projects = [
         github: "https://github.com/SimaoMachadoAlves",
       },
       {
-        name: "Miguel Castro",
-        img: "https://avatars.githubusercontent.com/u/154460266?v=4&size=64",
+        name: "João Domingos",
+        img: "https://avatars.githubusercontent.com/u/122760661?v=4&size=64",
         linkedin:
-          "https://www.linkedin.com/in/sim%C3%A3o-alves-89256222b/?originalSubdomain=pt",
-        github: "https://github.com/SimaoMachadoAlves",
+          "https://www.linkedin.com/in/jo%C3%A3o-domingos-correia-borges-50026329a/",
+        github: "https://github.com/mingos11",
       },
     ],
   },

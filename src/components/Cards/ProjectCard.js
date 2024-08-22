@@ -12,7 +12,6 @@ const Button = styled.button`
   font-weight: 700;
   border: none;
   border-radius: 10px;
-  cursor: pointer;
   transition: all 0.8s ease-in-out;
 `;
 
@@ -21,7 +20,6 @@ const Card = styled.div`
   width: 330px;
   height: 490px;
   background-color: ${({ theme }) => theme.card};
-  cursor: pointer;
   border-radius: 10px;
   box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.4);
   overflow: hidden;
@@ -49,6 +47,7 @@ const Image = styled.img`
   background-color: ${({ theme }) => theme.white};
   border-radius: 10px;
   box-shadow: 0 0 16px 2px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
 `;
 
 // Styles for the ProjectCard's Tags component
@@ -92,6 +91,7 @@ const Title = styled.div`
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
+  cursor: pointer;
 `;
 
 // Styles for the ProjectCard's Date component
@@ -117,6 +117,7 @@ const Description = styled.div`
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   text-overflow: ellipsis;
+  cursor: pointer;
 `;
 
 // Styles for the ProjectCard's Members component
@@ -134,25 +135,41 @@ const Avatar = styled.img`
   background-color: ${({ theme }) => theme.white};
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   border: 3px solid ${({ theme }) => theme.card};
+
+  &:hover {
+    transform: scale(1.05);
+  }
 `;
+
+// function to go to the github repo
+const checkOnGithub = (project) => {
+  window.open(project.github, "_blank").focus();
+};
 
 const ProjectCard = ({ project }) => {
   return (
     <Card>
-      <Image src={project.image}></Image>
+      <Image src={project.image} onClick={() => checkOnGithub(project)}></Image>
       <Tags>
         {project.tags.map((tag) => (
           <Tag key={tag}>{tag}</Tag>
         ))}
       </Tags>
       <Details>
-        <Title>{project.title}</Title>
+        <Title onClick={() => checkOnGithub(project)}>{project.title}</Title>
         <Date>{project.date}</Date>
-        <Description>{project.description}</Description>
+        <Description onClick={() => checkOnGithub(project)}>
+          {project.description}
+        </Description>
       </Details>
       <Members>
         {project.member?.map((member) => (
-          <Avatar src={member.img}></Avatar>
+          <Avatar
+            src={member.img}
+            onClick={() => {
+              window.open(member.linkedin, "_blank").focus();
+            }}
+          ></Avatar>
         ))}
       </Members>
     </Card>
