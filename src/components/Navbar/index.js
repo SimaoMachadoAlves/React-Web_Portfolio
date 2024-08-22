@@ -20,7 +20,6 @@ const Nav = styled.nav`
 
   @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
-    padding-top: 20px;
   }
 `;
 
@@ -62,7 +61,6 @@ const MobileIcon = styled.div`
     font-size: 1.5rem;
     cursor: pointer;
     color: ${({ theme }) => theme.text_primary};
-    padding-top: 10px;
   }
 `;
 
