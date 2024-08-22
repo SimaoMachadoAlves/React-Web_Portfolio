@@ -135,6 +135,7 @@ const Avatar = styled.img`
   background-color: ${({ theme }) => theme.white};
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   border: 3px solid ${({ theme }) => theme.card};
+  cursor: pointer;
 
   &:hover {
     transform: scale(1.05);

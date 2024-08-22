@@ -12,7 +12,7 @@ export const Bio = {
     "https://simaomachadoalves.github.io/Web-Portfolio/Assets/CV_Sim%C3%A3o%20Ant%C3%B3nio%20Machado%20Alves.pdf",
   linkedin:
     "https://www.linkedin.com/in/sim%C3%A3o-alves-89256222b/?originalSubdomain=pt",
-  twitter: "https://twitter.com/RishavChanda",
+  twitter: "https://x.com/simao_alves20",
   insta: "https://www.instagram.com/simaoalves20/",
 };
 

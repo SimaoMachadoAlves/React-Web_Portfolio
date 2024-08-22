@@ -33,6 +33,7 @@ const Title = styled.div`
   font-weight: 600;
 
   color: ${({ theme }) => theme.text_primary};
+
   @media screen and (max-width: 768px) {
     margin-top: 12px;
     font-size: 32px;

@@ -16,8 +16,11 @@ const Nav = styled.nav`
   position: sticky;
   top: 0;
   z-index: 10;
+  padding-top: 10px;
+
   @media screen and (max-width: 960px) {
-    transition: 0.8 all ease;
+    transition: 0.8s all ease;
+    padding-top: 20px;
   }
 `;
 
@@ -59,6 +62,7 @@ const MobileIcon = styled.div`
     font-size: 1.5rem;
     cursor: pointer;
     color: ${({ theme }) => theme.text_primary};
+    padding-top: 10px;
   }
 `;
 
@@ -71,6 +75,10 @@ const NavItems = styled.ul`
   gap: 32px;
   padding: 0 6px;
   list-style: none;
+
+  @media screen and (max-width: 820px) {
+    font-size: 0.9rem;
+  }
 
   @media screen and (max-width: 768px) {
     display: none;
@@ -103,7 +111,7 @@ const ButtonContainer = styled.div`
   align-items: center;
   padding: 0 6px;
 
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 768px) {
     display: none;
   }
 `;
@@ -128,6 +136,10 @@ const GithubButton = styled.a`
   :hover {
     background: ${({ theme }) => theme.primary};
     color: ${({ theme }) => theme.white};
+  }
+
+  @media screen and (max-width: 820px) {
+    font-size: 0.8rem;
   }
 
   @media screen and (max-width: 640px) {
@@ -211,11 +223,12 @@ const Navbar = () => {
           <FaBars onClick={() => setOpen(!open)}></FaBars>
         </MobileIcon>
         <NavItems>
-          <NavLink href="#about">About</NavLink>
+          <NavLink href="#">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
           {/*<NavLink href="#experience">Experience</NavLink>*/}
           <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#education">Education</NavLink>
+          <NavLink href="#contacts">Contacts</NavLink>
         </NavItems>
         <ButtonContainer>
           <GithubButton href={Bio.github} target="_blank">
@@ -226,7 +239,7 @@ const Navbar = () => {
       {open && (
         <MobileMenu open={open}>
           <MobileMenuLinks
-            href="#about"
+            href="#"
             onClick={() => {
               setOpen(!open);
             }}
@@ -264,6 +277,14 @@ const Navbar = () => {
             }}
           >
             Education
+          </MobileMenuLinks>
+          <MobileMenuLinks
+            href="#contacts"
+            onClick={() => {
+              setOpen(!open);
+            }}
+          >
+            Contacts
           </MobileMenuLinks>
           <GithubButton
             style={{
