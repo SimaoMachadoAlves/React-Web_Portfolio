@@ -11,6 +11,7 @@ const Container = styled.div`
   z-index: 1;
   align-items: center;
   padding-bottom: 60px;
+  padding-top: 70px;
 `;
 
 // Styles for the Skills Wrapper component
@@ -111,6 +112,11 @@ const SkillItem = styled.div`
   align-items: center;
   justify-content: center;
   gap: 8px;
+
+  &:hover {
+    transform: scale(1.05);
+    transition: all 0.4s ease-in-out;
+  }
 
   @media screen and (max-width: 768px) {
     font-size: 14px;

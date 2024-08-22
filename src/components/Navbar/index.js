@@ -137,6 +137,7 @@ const GithubButton = styled.a`
 
 // Styles for the Navbar's Span component
 const Span = styled.div`
+  color: ${({ theme }) => theme.text_primary};
   padding: 0 4px;
   font-weight: bold;
   font-size: 18px;

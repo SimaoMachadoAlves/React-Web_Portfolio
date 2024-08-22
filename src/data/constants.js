@@ -135,7 +135,7 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://idea.uminho.pt/SiteAssets/Logo_IDEA_PT.png",
+    img: "https://lh5.googleusercontent.com/proxy/Jrqqwnr2ZWqrniVf_HqlNK-QFRwvbOR5AL_4DDb1jimE6A996aPo4FtJp4DZE6uXcIQgSwpvzhOzkCjMC3xz0iDhKhVrKlNx6cU",
     school: "University of Minho, Braga",
     date: "Sep 2021 - Jun 2024",
     grade: "15.56",
@@ -144,7 +144,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-oUsO8t7B1YCFCsRkTWnM0JGARUf6Oc4UbA&s",
     school: "Dona Maria II Secondary School, Braga",
     date: "Sep 2018 - Jun 2021",
     grade: "???",

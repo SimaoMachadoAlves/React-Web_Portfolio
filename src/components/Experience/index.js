@@ -1,12 +1,12 @@
 import React from "react";
 import styled from "styled-components";
-import { experiences } from "../../data/constants";
 import Timeline from "@mui/lab/Timeline";
 import TimelineItem from "@mui/lab/TimelineItem";
 import TimelineSeparator from "@mui/lab/TimelineSeparator";
 import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineDot from "@mui/lab/TimelineDot";
+import { experiences } from "../../data/constants";
 import ExperienceCard from "../Cards/ExperienceCard";
 
 // Styles for the Experience's Container component
@@ -17,7 +17,11 @@ const Container = styled.div`
   position: relative;
   z-index: 1;
   align-items: center;
-  padding: 60px 0px;
+  padding: 40px 0px 80px 0px;
+
+  @media (max-width: 960px) {
+    padding: 0px;
+  }
 `;
 
 // Styles for the Experience's Wrapper component

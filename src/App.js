@@ -1,6 +1,7 @@
 import "./App.css";
 import styled, { ThemeProvider } from "styled-components";
 import { darkTheme } from "./utils/Themes";
+import { lightTheme } from "./utils/Themes";
 import Navbar from "./components/Navbar";
 import Hero from "./components/HeroSection";
 import Skills from "./components/Skills";
@@ -45,7 +46,9 @@ function App() {
             {/* <Experience></Experience> */}
           </Wrapper>
           <Projects></Projects>
-          <Education></Education>
+          <Wrapper>
+            <Education></Education>
+          </Wrapper>
         </Body>
       </Router>
     </ThemeProvider>
