@@ -5,6 +5,7 @@ import { DiAtom } from "react-icons/di";
 import { FaBars } from "react-icons/fa";
 import { useTheme } from "styled-components";
 import { Bio } from "../../data/constants";
+import "./index.css";
 
 // Styles for the Navbar's Nav component
 const Nav = styled.nav`
@@ -214,7 +215,16 @@ const Navbar = () => {
               cursor: "pointer",
             }}
           >
-            <DiAtom size="3rem" /> <Span>Portfolio</Span>
+            {/* <DiAtom size="3rem" /> */}
+            <div class="helmet">
+              <div class="head">
+                <div class="eyes">
+                  <div class="eye" />
+                  <div class="eye" />
+                </div>
+              </div>
+            </div>
+            <Span>Portfolio</Span>
           </a>
         </NavLogo>
         <MobileIcon>
