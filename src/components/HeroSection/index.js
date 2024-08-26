@@ -43,12 +43,18 @@ const HeroBg = styled.div`
   transform: translateX(-50%) translateY(-50%);
 
   @media screen and (max-width: 1280px) {
-    width: 82%;
+    width: 94.5%;
+  }
+
+  @media screen and (max-width: 1024px) {
+    padding-top: 4rem;
+    width: 50%;
   }
 
   @media screen and (max-width: 960px) {
     justify-content: center;
     padding: 0 0px;
+    width: 90%;
   }
 
   z-index: -1;
@@ -96,6 +102,14 @@ export const HeroRightContainer = styled.div`
   order: 2;
   justify-content: end;
   gap: 12px;
+
+  @media screen and (max-width: 1280px) {
+    order: 1;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
   @media screen and (max-width: 960px) {
     order: 1;
     justify-content: center;
@@ -103,8 +117,16 @@ export const HeroRightContainer = styled.div`
     margin-bottom: 80px;
   }
 
+  @media screen and (max-width: 820px) {
+    padding-top: 40px;
+  }
+
   @media screen and (max-width: 640px) {
     margin-bottom: 30px;
+  }
+
+  @media screen and (max-width: 480px) {
+    padding-top: 40px;
   }
 `;
 
