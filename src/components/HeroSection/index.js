@@ -42,6 +42,14 @@ const HeroBg = styled.div`
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
 
+  @media screen and (max-width: 2560px) {
+    width: 66.5%;
+  }
+
+  @media screen and (max-width: 1920px) {
+    width: 71%;
+  }
+
   @media screen and (max-width: 1280px) {
     width: 94.5%;
   }
