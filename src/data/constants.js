@@ -208,13 +208,13 @@ export const projects = [
     github: "https://github.com/SimaoMachadoAlves/GoHelp-FO",
     webapp: "https://simaomachadoalves.github.io/GoHelp-FO/GoHelp/index.html",
     member: [
-      {
+      /* {
         name: "Simão Alves",
         img: "https://avatars.githubusercontent.com/u/154460266?v=4&size=64",
         linkedin:
           "https://www.linkedin.com/in/sim%C3%A3o-alves-89256222b/?originalSubdomain=pt",
         github: "https://github.com/SimaoMachadoAlves",
-      },
+      }, */
     ],
   },
   {
