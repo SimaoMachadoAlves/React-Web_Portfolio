@@ -1,5 +1,6 @@
 import BackOffice from "../images/BackOffice.png";
 import App from "../images/App.png";
+import github_whitelogo from "../images/github_whitelogo.png";
 import CV_SimaoAntonioMachadoAlves from "../utils/CV_SimaoAntonioMachadoAlves.pdf";
 
 /* ---------------------------------------- BIO  ---------------------------------------- */
@@ -81,7 +82,7 @@ export const skills = [
       },
       {
         name: "GitHub",
-        image: "https://cdn-icons-png.flaticon.com/512/25/25231.png",
+        image: github_whitelogo,
       },
       {
         name: "Docker",
