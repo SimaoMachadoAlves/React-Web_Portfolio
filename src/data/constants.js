@@ -1,5 +1,6 @@
 import BackOffice from "../images/BackOffice.png";
 import App from "../images/App.png";
+import CV_SimaoAntonioMachadoAlves from "../utils/CV_SimaoAntonioMachadoAlves.pdf";
 
 /* ---------------------------------------- BIO  ---------------------------------------- */
 export const Bio = {
@@ -8,8 +9,7 @@ export const Bio = {
   description:
     "I'm 21 years old and my main goal is to become a full stack dev. Web development is my passion and with my dedication I know for sure that I can succeed and achieve positive results. Three words that characterize me: Competent, flexible and proactive!",
   github: "https://github.com/SimaoMachadoAlves",
-  resume:
-    "https://simaomachadoalves.github.io/Web-Portfolio/Assets/CV_Sim%C3%A3o%20Ant%C3%B3nio%20Machado%20Alves.pdf",
+  resume: CV_SimaoAntonioMachadoAlves,
   linkedin:
     "https://www.linkedin.com/in/sim%C3%A3o-alves-89256222b/?originalSubdomain=pt",
   twitter: "https://x.com/simao_alves20",
