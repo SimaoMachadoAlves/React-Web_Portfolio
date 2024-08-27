@@ -1,16 +1,17 @@
 {
   "files": {
     "main.css": "/React-Web_Portfolio/static/css/main.21280e24.css",
-    "main.js": "/React-Web_Portfolio/static/js/main.f7654430.js",
+    "main.js": "/React-Web_Portfolio/static/js/main.6f5b4d46.js",
+    "static/media/CV_SimaoAntonioMachadoAlves.pdf": "/React-Web_Portfolio/static/media/CV_SimaoAntonioMachadoAlves.010c3254122e9b6acbf9.pdf",
     "static/media/profile-pic.png": "/React-Web_Portfolio/static/media/profile-pic.72233e9216ec9ec8fd08.png",
     "static/media/BackOffice.png": "/React-Web_Portfolio/static/media/BackOffice.ffc0328ee91261738497.png",
     "static/media/App.png": "/React-Web_Portfolio/static/media/App.7b4eb2304fa1392f771c.png",
     "index.html": "/React-Web_Portfolio/index.html",
     "main.21280e24.css.map": "/React-Web_Portfolio/static/css/main.21280e24.css.map",
-    "main.f7654430.js.map": "/React-Web_Portfolio/static/js/main.f7654430.js.map"
+    "main.6f5b4d46.js.map": "/React-Web_Portfolio/static/js/main.6f5b4d46.js.map"
   },
   "entrypoints": [
     "static/css/main.21280e24.css",
-    "static/js/main.f7654430.js"
+    "static/js/main.6f5b4d46.js"
   ]
 }
