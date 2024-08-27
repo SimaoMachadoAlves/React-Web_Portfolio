@@ -147,7 +147,7 @@ export const education = [
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-oUsO8t7B1YCFCsRkTWnM0JGARUf6Oc4UbA&s",
     school: "Dona Maria II Secondary School, Braga",
     date: "Sep 2018 - Jun 2021",
-    grade: "???",
+    grade: "17",
     desc: "I completed my class 12 high school education at Dona Maria II Secondary School, where I studied Science and Technologies.",
     degree: "Science and Technologies",
   },
@@ -176,11 +176,10 @@ export const projects = [
         github: "https://github.com/SimaoMachadoAlves",
       },
       {
-        name: "Miguel Castro",
-        img: "https://avatars.githubusercontent.com/u/154460266?v=4&size=64",
-        linkedin:
-          "https://www.linkedin.com/in/sim%C3%A3o-alves-89256222b/?originalSubdomain=pt",
-        github: "https://github.com/SimaoMachadoAlves",
+        name: "Rodrigo Esteves",
+        img: "https://avatars.githubusercontent.com/u/152817048?v=4&size=64",
+        linkedin: "https://www.linkedin.com/in/rodrigo-esteves-605823229/",
+        github: "https://github.com/rodrigoesteves11",
       },
     ],
   },
@@ -216,13 +215,6 @@ export const projects = [
           "https://www.linkedin.com/in/sim%C3%A3o-alves-89256222b/?originalSubdomain=pt",
         github: "https://github.com/SimaoMachadoAlves",
       },
-      {
-        name: "Miguel Castro",
-        img: "https://avatars.githubusercontent.com/u/154460266?v=4&size=64",
-        linkedin:
-          "https://www.linkedin.com/in/sim%C3%A3o-alves-89256222b/?originalSubdomain=pt",
-        github: "https://github.com/SimaoMachadoAlves",
-      },
     ],
   },
   {
@@ -246,11 +238,10 @@ export const projects = [
         github: "https://github.com/SimaoMachadoAlves",
       },
       {
-        name: "Miguel Castro",
-        img: "https://avatars.githubusercontent.com/u/154460266?v=4&size=64",
-        linkedin:
-          "https://www.linkedin.com/in/sim%C3%A3o-alves-89256222b/?originalSubdomain=pt",
-        github: "https://github.com/SimaoMachadoAlves",
+        name: "Rodrigo Esteves",
+        img: "https://avatars.githubusercontent.com/u/152817048?v=4&size=64",
+        linkedin: "https://www.linkedin.com/in/rodrigo-esteves-605823229/",
+        github: "https://github.com/rodrigoesteves11",
       },
     ],
   },
