@@ -1,6 +1,9 @@
 import BackOffice from "../images/BackOffice.png";
 import App from "../images/App.png";
 import github_whitelogo from "../images/github_whitelogo.png";
+import VolleyStats from "../images/VolleyStats.png";
+import AGC from "../images/AGC.png";
+import GoHelp_LandingPage from "../images/GoHelp_LandingPage.png";
 import CV_SimaoAntonioMachadoAlves from "../utils/CV_SimaoAntonioMachadoAlves.pdf";
 
 /* ---------------------------------------- BIO  ---------------------------------------- */
@@ -162,8 +165,7 @@ export const projects = [
     date: "Fev 2023 - May 2023",
     description:
       "Developed an app in JavaFX for the VSC Volleyball team, where they could do the management of their teams. The data was saved and fetch directly in a SQL server (Ubuntu) provided by the University.",
-    image:
-      "https://simaomachadoalves.github.io/Web-Portfolio/Assets/VolleyStats.png",
+    image: VolleyStats,
     tags: ["Java", "JavaFX", "MySQL"],
     category: "app",
     github: "https://github.com/SimaoMachadoAlves/JAVAFX-Project",
@@ -190,7 +192,7 @@ export const projects = [
     date: "Sep 2023 - Jan 2024",
     description:
       "Web application integrating SAP and Moloni systems, developed in Outsystems.",
-    image: "https://simaomachadoalves.github.io/Web-Portfolio/Assets/AGC.png",
+    image: AGC,
     tags: ["Outsystems", "Rest API", "Postman"],
     category: "web app",
     github: "https://github.com/SimaoMachadoAlves/Middleware-Outsystems",
@@ -202,8 +204,7 @@ export const projects = [
     date: "Feb 2024 - Jun 2024",
     description:
       "GoHelp is a fictional organization whose main goal is to regrow culture in Portugal by creating some events such as book exchange, musical concerts and theaters. GoHelp FO is the landing page of Gohelp, where users can login via Google, check the current and upcomming events, register in an event, etc.",
-    image:
-      "https://simaomachadoalves.github.io/Web-Portfolio/Assets/GoHelp_LandingPage.png",
+    image: GoHelp_LandingPage,
     tags: ["LocalStorage", "SessionStorage"],
     category: "web app",
     github: "https://github.com/SimaoMachadoAlves/GoHelp-FO",
