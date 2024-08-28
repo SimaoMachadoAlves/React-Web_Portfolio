@@ -1,17 +1,20 @@
 {
   "files": {
     "main.css": "/React-Web_Portfolio/static/css/main.21280e24.css",
-    "main.js": "/React-Web_Portfolio/static/js/main.4b530b94.js",
+    "main.js": "/React-Web_Portfolio/static/js/main.dd1cfe9d.js",
     "static/media/CV_SimaoAntonioMachadoAlves.pdf": "/React-Web_Portfolio/static/media/CV_SimaoAntonioMachadoAlves.010c3254122e9b6acbf9.pdf",
+    "static/media/GoHelp_LandingPage.png": "/React-Web_Portfolio/static/media/GoHelp_LandingPage.f66fca314fbb3bf342b6.png",
     "static/media/profile-pic.png": "/React-Web_Portfolio/static/media/profile-pic.72233e9216ec9ec8fd08.png",
+    "static/media/AGC.png": "/React-Web_Portfolio/static/media/AGC.526e94b59a4975048e1d.png",
     "static/media/BackOffice.png": "/React-Web_Portfolio/static/media/BackOffice.ffc0328ee91261738497.png",
+    "static/media/VolleyStats.png": "/React-Web_Portfolio/static/media/VolleyStats.e98198fdb3ebc0aee1f1.png",
     "static/media/App.png": "/React-Web_Portfolio/static/media/App.7b4eb2304fa1392f771c.png",
     "index.html": "/React-Web_Portfolio/index.html",
     "main.21280e24.css.map": "/React-Web_Portfolio/static/css/main.21280e24.css.map",
-    "main.4b530b94.js.map": "/React-Web_Portfolio/static/js/main.4b530b94.js.map"
+    "main.dd1cfe9d.js.map": "/React-Web_Portfolio/static/js/main.dd1cfe9d.js.map"
   },
   "entrypoints": [
     "static/css/main.21280e24.css",
-    "static/js/main.4b530b94.js"
+    "static/js/main.dd1cfe9d.js"
   ]
 }
