@@ -45,7 +45,7 @@ function App() {
           <Hero></Hero>
           <Wrapper>
             <Skills></Skills>
-            {/* <Experience></Experience> */}
+            <Experience></Experience>
           </Wrapper>
           <Projects></Projects>
           <Wrapper>

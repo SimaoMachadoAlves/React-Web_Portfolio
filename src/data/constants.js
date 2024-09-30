@@ -4,12 +4,18 @@ import github_whitelogo from "../images/github_whitelogo.png";
 import VolleyStats from "../images/VolleyStats.png";
 import AGC from "../images/AGC.png";
 import GoHelp_LandingPage from "../images/GoHelp_LandingPage.png";
+import Arquiconsult from "../images/arquiconsult.jpg";
 import CV_SimaoAntonioMachadoAlves from "../utils/CV_SimaoAntonioMachadoAlves.pdf";
 
 /* ---------------------------------------- BIO  ---------------------------------------- */
 export const Bio = {
   name: "Simão Alves",
-  roles: ["Full Stack Developer", "Backend Developer", "Frontend Developer"],
+  roles: [
+    "Full Stack Developer",
+    "Backend Developer",
+    "Frontend Developer",
+    "D365 F&O Consultant",
+  ],
   description:
     "I'm 21 years old and my main goal is to become a full stack dev. Web development is my passion and with my dedication I know for sure that I can succeed and achieve positive results. Three words that characterize me: Competent, flexible and proactive!",
   github: "https://github.com/SimaoMachadoAlves",
@@ -73,6 +79,11 @@ export const skills = [
         name: "Node Js",
         image: "https://nodejs.org/static/images/logo.svg",
       },
+      {
+        name: "X++",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTinZNu02fBBhCLD6x9CsJ68WGhLxrfvjQEMQ&s",
+      },
     ],
   },
   {
@@ -118,20 +129,14 @@ export const skills = [
 /* ---------------------------------------- EXPERIENCE  ---------------------------------------- */
 export const experiences = [
   {
-    /*id: 0,
-      img: "",
-      role: "",
-      company: "",
-      date: " - ",
-      desc: "",
-      skills: [
-        "JavaScript",
-        "TypeScript",
-        "Node Js",
-        "Next Js",
-      ],
-      doc: "",
-        */
+    id: 0,
+    img: Arquiconsult,
+    role: "Junior Consultant",
+    company: "Arquiconsult",
+    date: "Oct 2024 - Today",
+    desc: "Working with Microsoft Dynamics 365 Finance and Operations (F&O) in the implementation, customization, support and optimization proccesses.",
+    skills: ["D365 F&O", "X++", "Azure DevOps"],
+    doc: "",
   },
 ];
 
@@ -143,7 +148,7 @@ export const education = [
     school: "University of Minho, Braga",
     date: "Sep 2021 - Jun 2024",
     grade: "15.56",
-    desc: "I completed my degree in Engineering and Management of Information Systems, Braga. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Web Environment, among others",
+    desc: "I completed my degree in Engineering and Management of Information Systems, Braga. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Web Environment, among others.",
     degree: "Bachelor in Engineering and Management of Information Systems",
   },
   {
