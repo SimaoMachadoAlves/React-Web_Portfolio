@@ -14,10 +14,10 @@ export const Bio = {
     "Full Stack Developer",
     "Backend Developer",
     "Frontend Developer",
-    "D365 F&O Consultant",
+    "D365 F&SCM Consultant",
   ],
   description:
-    "I'm 21 years old and my main goal is to become a full stack dev. Web development is my passion and with my dedication I know for sure that I can succeed and achieve positive results. Three words that characterize me: Competent, flexible and proactive!",
+    "I'm 22 years old and my main goal is to become a full stack dev. Web development is my passion and with my dedication I know for sure that I can succeed and achieve positive results. Three words that characterize me: Competent, flexible and proactive!",
   github: "https://github.com/SimaoMachadoAlves",
   resume: CV_SimaoAntonioMachadoAlves,
   linkedin:
