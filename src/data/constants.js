@@ -133,7 +133,7 @@ export const experiences = [
     img: Arquiconsult,
     role: "Junior Consultant",
     company: "Arquiconsult",
-    date: "Oct 2024 - Today",
+    date: "Oct 2024 - Jan 2025",
     desc: "Working with Microsoft Dynamics 365 Finance and Operations (F&O) in the implementation, customization, support and optimization proccesses.",
     skills: ["D365 F&O", "X++", "Azure DevOps"],
     doc: "",
