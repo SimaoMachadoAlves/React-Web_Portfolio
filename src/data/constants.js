@@ -144,7 +144,7 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://lh5.googleusercontent.com/proxy/Jrqqwnr2ZWqrniVf_HqlNK-QFRwvbOR5AL_4DDb1jimE6A996aPo4FtJp4DZE6uXcIQgSwpvzhOzkCjMC3xz0iDhKhVrKlNx6cU",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm5JbuqNLW_gohJW6hk9H6n0-YSb7QBbRS0Q&s",
     school: "University of Minho, Braga",
     date: "Sep 2021 - Jun 2024",
     grade: "15.56",
