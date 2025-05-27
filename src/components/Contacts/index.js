@@ -116,8 +116,8 @@ const Contacts = () => {
       <Title>Contact Me</Title>
       <ContactContainer>
         <Image src={email}></Image>
-        <Text href="mailto:simaomachadoalves15@gmail.com" target="_blank">
-          simaomachadoalves15@gmail.com
+        <Text href="mailto:simaoama20@gmail.com" target="_blank">
+          simaoama20@gmail.com
         </Text>
         <Image src={linkedin}></Image>
         <Text href={Bio.linkedin} target="_blank">
