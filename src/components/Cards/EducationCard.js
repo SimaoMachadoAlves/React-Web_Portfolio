@@ -146,8 +146,8 @@ const EducationCard = ({ education }) => {
       <Top>
         <Logo src={education.img}></Logo>
         <Body>
-          <Name>{education.school}</Name>
-          <Degree>{education.degree}</Degree>
+          <Name>{education.degree}</Name>
+          <Degree>{education.school}</Degree>
           <Date>{education.date}</Date>
         </Body>
       </Top>
