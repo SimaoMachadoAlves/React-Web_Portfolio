@@ -4,16 +4,19 @@
   "private": true,
   "homepage": "https://SimaoMachadoAlves.github.io/React-Web_Portfolio",
   "dependencies": {
+    "@babel/helpers": ">=7.26.10",
+    "@babel/runtime": ">=7.26.10",
     "@emailjs/browser": "^4.4.1",
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
-    "@mui/icons-material": "^5.11.16",
-    "@mui/lab": "^5.0.0-alpha.130",
-    "@mui/material": "^6.3.0",
+    "@mui/icons-material": "^5.13.0",
+    "@mui/lab": "^5.0.0-alpha.125",
+    "@mui/material": "^5.13.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
     "@testing-library/user-event": "^13.5.0",
     "body-parser": "^1.20.3",
+    "brace-expansion": ">=2.0.2",
     "cookie": "^1.0.2",
     "emailjs": "^4.0.2",
     "express": "^4.21.2",
@@ -22,20 +25,23 @@
     "micromatch": "^4.0.8",
     "nanoid": "^5.0.9",
     "nth-check": "^2.1.1",
-    "postcss": "^8.4.49",
+    "postcss": "^8.5.6",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-icons": "^4.3.1",
     "react-router-dom": "^6.3.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "5.1.0-next.26",
     "react-scroll": "^1.8.7",
     "rollup": "^4.29.1",
     "send": "^1.1.0",
     "serve-static": "^1.16.2",
     "styled-components": "^5.3.5",
     "typewriter-effect": "^2.19.0",
+    "versions": "^12.1.3",
+    "view": "^1.1.1",
     "web-vitals": "^2.1.4",
-    "webpack": "^5.97.1"
+    "webpack": "^5.97.1",
+    "webpack-dev-server": ">=5.2.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -62,5 +68,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-normalize": "^13.0.1",
+    "postcss-preset-env": "^10.2.4"
   }
 }
