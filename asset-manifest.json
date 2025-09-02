@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Web_Portfolio/static/css/main.21280e24.css",
-    "main.js": "/React-Web_Portfolio/static/js/main.ed1831e3.js",
+    "main.js": "/React-Web_Portfolio/static/js/main.f5d60a3c.js",
     "static/media/GoHelp_LandingPage.png": "/React-Web_Portfolio/static/media/GoHelp_LandingPage.f66fca314fbb3bf342b6.png",
     "static/media/profile-pic.png": "/React-Web_Portfolio/static/media/profile-pic.72233e9216ec9ec8fd08.png",
     "static/media/AGC.png": "/React-Web_Portfolio/static/media/AGC.526e94b59a4975048e1d.png",
@@ -11,10 +11,10 @@
     "static/media/App.png": "/React-Web_Portfolio/static/media/App.7b4eb2304fa1392f771c.png",
     "index.html": "/React-Web_Portfolio/index.html",
     "main.21280e24.css.map": "/React-Web_Portfolio/static/css/main.21280e24.css.map",
-    "main.ed1831e3.js.map": "/React-Web_Portfolio/static/js/main.ed1831e3.js.map"
+    "main.f5d60a3c.js.map": "/React-Web_Portfolio/static/js/main.f5d60a3c.js.map"
   },
   "entrypoints": [
     "static/css/main.21280e24.css",
-    "static/js/main.ed1831e3.js"
+    "static/js/main.f5d60a3c.js"
   ]
 }
